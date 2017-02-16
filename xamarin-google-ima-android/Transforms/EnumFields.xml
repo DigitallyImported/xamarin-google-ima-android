@@ -1,14 +1,25 @@
 ﻿<enum-field-mappings>
-  <!--
-  This example converts the constants Fragment_id, Fragment_name,
-  and Fragment_tag from android.support.v4.app.FragmentActivity.FragmentTag
-  to an enum called Android.Support.V4.App.FragmentTagType with values
-  Id, Name, and Tag.
-  
-  <mapping jni-class="android/support/v4/app/FragmentActivity$FragmentTag" clr-enum-type="Android.Support.V4.App.FragmentTagType">
-    <field jni-name="Fragment_name" clr-name="Name" value="0" />
-    <field jni-name="Fragment_id" clr-name="Id" value="1" />
-    <field jni-name="Fragment_tag" clr-name="Tag" value="2" />
-  </mapping>
-  -->
+T    <mapping jni-class="com/google/ads/interactivemedia/v3/api/AdEvent$AdEventType" clr-enum-type="Com.Google.Ads.InteractiveMedia.V3.Api.AdEventType">
+        <field jni-name="AD_BREAK_ENDED" clr-name="AdBreakEnded" value="0" />
+        <field jni-name="AD_BREAK_READY" clr-name="AdBreakReady" value="1" />
+        <field jni-name="AD_BREAK_STARTED" clr-name="AdBreakStarted" value="2" />
+        <field jni-name="AD_PROGRESS" clr-name="AdProgress" value="3" />
+        <field jni-name="ALL_ADS_COMPLETED" clr-name="AllAdsCompleted" value="4" />
+        <field jni-name="CLICKED" clr-name="Clicked" value="5" />
+        <field jni-name="COMPLETED" clr-name="Completed" value="6" />
+        <field jni-name="CONTENT_PAUSE_REQUESTED" clr-name="ContentPauseRequested" value="7" />
+        <field jni-name="CONTENT_RESUME_REQUESTED" clr-name="ContentResumeRequested" value="8" />
+        <field jni-name="CUEPOINTS_CHANGED" clr-name="CuepointsChanged" value="9" />
+        <field jni-name="FIRST_QUARTILE" clr-name="FirstQuartile" value="10" />
+        <field jni-name="ICON_TAPPED" clr-name="IconTapped" value="11" />
+        <field jni-name="LOADED" clr-name="Loaded" value="12" />
+        <field jni-name="LOG" clr-name="Log" value="13" />
+        <field jni-name="MIDPOINT" clr-name="Midpoint" value="14" />
+        <field jni-name="PAUSED" clr-name="Paused" value="15" />
+        <field jni-name="RESUMED" clr-name="Resumed" value="16" />
+        <field jni-name="SKIPPED" clr-name="Skipped" value="17" />
+        <field jni-name="STARTED" clr-name="Started" value="18" />
+        <field jni-name="TAPPED" clr-name="Tapped" value="19" />
+        <field jni-name="THIRD_QUARTILE" clr-name="ThirdQuartile" value="20" />
+    </mapping>
 </enum-field-mappings>
